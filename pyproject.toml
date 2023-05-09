@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "yandex-projects-full-history"
+version = "0.1.0"
+description = "Directory of projects completed during the Data Science Bootcamp course from yandex.practicum"
+authors = ["Ivan Njt <ivan.demme@gmail.com>"]
+readme = "README.md"
+packages = [{include = "yandex_projects_full_history"}]
+
+[tool.poetry.dependencies]
+python = "=3.9.13"
+pandas = "^2.0.1"
+matplotlib = "^3.7.1"
+jinja2 = "^3.1.2"
+seaborn = "^0.12.2"
+scipy = "^1.10.1"
+scikit-learn = "^1.2.2"
+catboost = "^1.2"
+lightgbm = "^3.3.5"
+statsmodels = "^0.14.0"
+torch = "^2.0.0"
+tqdm = "^4.65.0"
+transformers = "^4.28.1"
+spacy = "^3.5.2"
+nltk = "^3.8.1"
+ipywidgets = "^8.0.6"
+iprogress = "^0.4"
+jupyter = "^1.0.0"
+widgetsnbextension = "^4.0.7"
+jupyterlab-widgets = "^3.0.7"
+phik = "^0.12.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

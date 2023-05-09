@@ -1,0 +1,9 @@
+**/data/
+**/.ipynb_checkpoints/
+**/catboost_info/
+
+.venv
+
+sprint_3_statistical_data_analysis/
+sprint_14_intro_to_CV/
+
